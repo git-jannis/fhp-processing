@@ -14,3 +14,9 @@ with this linkname: Documentation_MaxiMuster
 
 Your documentation Link must be in incom by the next class
 Please select three activities from this list in your row for the next class
+
+## Example
+- Video or GIF
+- What is the code about? What techniques did I use to achive the effect?
+- `The code itself`
+
