@@ -51,3 +51,50 @@ This sketch marks the first project of the class. It generates patterns, smiliar
 	void keyTyped() { // quits recording once a random key is pressed
 	  endRecord();
 	}
+
+
+
+
+
+
+
+## Sketch 2 — Supershape
+- [Video or GIF here]
+- Text here
+
+		import processing.pdf.*;
+		boolean record;
+		float t;
+
+		void setup() {
+			size(500, 500);
+			beginRecord(PDF, "everything-###.pdf");
+		}
+
+		void draw() {
+			stroke(0);
+			strokeWeight(5);
+			translate(width/2, height/3);
+			point(x(t), y(t));
+			t++;
+		}
+
+		void keyPressed() {
+			if (key == 'q') {
+			    endRecord();
+				exit();
+			}
+		}
+
+		float x(float t) {
+			return sin(t/8) * 100 + sin(t/6)*100; // freq=sin(t/8), amplitude=*100)
+		}
+
+		float y(float t) {
+			return cos(t/4) * 100 + cos(t/2)*25;
+		}
+
+
+## Sketch 3 — OOP
+- [Video or GIF here]
+- Text here
