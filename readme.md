@@ -15,8 +15,39 @@ with this linkname: Documentation_MaxiMuster
 Your documentation Link must be in incom by the next class
 Please select three activities from this list in your row for the next class
 
-## Example
-- Video or GIF
-- What is the code about? What techniques did I use to achive the effect?
-- `The code itself`
 
+
+
+## Sketch 1 — Hommage to Vera Molnár’s »Untitled«
+- [Video or GIF here]
+
+This sketch marks the first project of the class. It generates patterns, smiliar to those seen on the artwork »Untitled« by the artist and visual pioneer Vera Molnár. By clicking and moving the mouse, rectangles are generated on restricted but random x and y coordinates. 
+
+	import processing.pdf.*; // imports PDF library for exporting screenshots
+
+	void setup() {
+	  size(1024, 750);
+	  frameRate(20); // controls the frequency of rectangles drawn
+	  background(240, 240, 235); 
+	  //pixelDensity(displayDensity()); // retina res. doesnt workt with PDF export
+	  beginRecord(PDF, "hommage-" + year() + "-" + month() + "-" + day() + "--" + hour() + "h." + minute() + "m." + second() + ".pdf"); // starts "recording"
+	}
+
+	void draw() {
+	  if (mousePressed && (mouseButton == LEFT)) {  // draws rectangles on left click
+	    stroke(200, 50, 30);
+	    strokeWeight(2);
+	    noFill();
+	    rect(mouseX, mouseY, 30, 300);
+	    rect(mouseX+random(5, 10), mouseY+random(5, 10), 30, 300);
+	  } else if (mousePressed && (mouseButton == RIGHT)) {
+	    background(240, 240, 235); // resets canvas to bg color
+	  } else { // makes sure to leave no trail
+	    noStroke(); 
+	    noFill();
+	  }
+	}
+
+	void keyTyped() { // quits recording once a random key is pressed
+	  endRecord();
+	}
