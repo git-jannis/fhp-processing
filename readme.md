@@ -59,7 +59,7 @@ This sketch marks the first project of the class. It generates patterns, smiliar
 
 
 ## Sketch 2 — Supershape
-- [Video or GIF here]
+- ![Animation of Supershape Sketch](/img/supershape.gif)
 - Text here
 
 		import processing.pdf.*;
