@@ -21,7 +21,7 @@ Please select three activities from this list in your row for the next class
 ## Sketch 1 — Hommage to Vera Molnár’s »Untitled«
 ![Animation of Supershape Sketch](/img/molnar.gif)
 
-This sketch marks the first project of the class. It generates patterns, smiliar to those seen on the artwork »Untitled« by the artist and visual pioneer Vera Molnár. By clicking and moving the mouse, rectangles are generated on restricted but random x and y coordinates. 
+🌀 This sketch marks the first project of the class. It generates patterns, smiliar to those seen on the artwork »Untitled« by the artist and visual pioneer Vera Molnár. By clicking and moving the mouse, rectangles are generated on restricted but random x and y coordinates. 
 
 	import processing.pdf.*; // imports PDF library for exporting screenshots
 
@@ -52,7 +52,7 @@ This sketch marks the first project of the class. It generates patterns, smiliar
 	  endRecord();
 	}
 
-
+🔗 Download the sketch file here: ![Molnar Sketch file](sketch_files/molnar_sketch.zip)
 
 
 
@@ -60,7 +60,7 @@ This sketch marks the first project of the class. It generates patterns, smiliar
 
 ## Sketch 2 — Supershapes build with sin and cos functions
 ![Animation of Supershape Sketch](/img/supershape.gif)
-- Text here
+🌀 Text here
 
 		import processing.pdf.*;
 		boolean record;
@@ -97,7 +97,7 @@ This sketch marks the first project of the class. It generates patterns, smiliar
 
 ## Sketch 3 — Wildlife (Object Oriented Programming)
 ![Animation of Supershape Sketch](/img/wildlife.gif)
-- Text here
+🌀 Text here
 
 		Worm[] worms = new Worm[10]; // declare array + create list of 10 spots
 
@@ -156,7 +156,7 @@ This sketch marks the first project of the class. It generates patterns, smiliar
 			stroke(0);
 			fill(255);
 			ellipse(wormX+wormLength/1.1, wormY+wormHeight/3, 10, 10);
-			
+
 			// legs
 			stroke(255);
 				for (float i = wormX; i < wormX+wormLength; i = i + legSpacing) {
