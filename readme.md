@@ -78,12 +78,12 @@
 
 🔗 Download the sketch file here: [Supershape sketch file](sketch_files/supershape_sketch.zip)
 
-
 - - -
 
 
 ## Sketch 3 — Wildlife (Object Oriented Programming)
 ![Animation of Supershape Sketch](/img/wildlife.gif)
+
 🌀 Getting to know the concept of object oriented programming, I created a "worm" object that produces worms in different width, heigth and leg length and moves them across the screen.
 
 		Worm[] worms = new Worm[10]; // declare array + create list of 10 spots
