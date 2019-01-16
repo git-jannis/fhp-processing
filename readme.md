@@ -33,7 +33,7 @@
 	  endRecord();
 	}
 
-🔗 Download the sketch file here: [Molnar Sketch file](sketch_files/molnar_sketch.zip)
+🔗 Download the sketch file here: [Molnar sketch file](sketch_files/molnar_sketch.zip)
 
 
 - - -
@@ -41,6 +41,7 @@
 
 ## Sketch 2 — Supershapes build with sin and cos functions
 ![Animation of Supershape Sketch](/img/supershape.gif)
+
 🌀 Exploring the sin and cos functions within processing, so called supershapes were created and were later lasered on paper.
 
 		import processing.pdf.*;
@@ -75,7 +76,7 @@
 			return cos(t/4) * 100 + cos(t/2)*25;
 		}
 
-🔗 Download the sketch file here: [Supershape Sketch file](sketch_files/supershape_sketch.zip)
+🔗 Download the sketch file here: [Supershape sketch file](sketch_files/supershape_sketch.zip)
 
 
 - - -
@@ -150,4 +151,5 @@
 				}
 			}
 		}
-🔗 Download the sketch file here: [Wildlife Sketch file](sketch_files/wildlife_sketch.zip)
+
+🔗 Download the sketch file here: [Wildlife sketch file](sketch_files/wildlife_sketch.zip)
