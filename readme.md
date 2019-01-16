@@ -1,23 +1,4 @@
-# Task
-Select at least 3 sketches that you made this semester (or some new ones) and put them online in at least one of these sites:
-
-As a Bitbucket.com or Github.com Repository
-Website (if you already have one or make one with glitch.com for free) https://glitch.com/culture/website-starter-kit/
-As an Incom Project page
-Each sketch should have:
-
-a description of what the code is about
-an image, or a gif, or a video, or an embedded P5.js sketch
-you should also include the code of your sketch
-Post your documentation link to our incom https://fhp.incom.org/workspace/7990/files Documentation Links
-with this linkname: Documentation_MaxiMuster
-
-Your documentation Link must be in incom by the next class
-Please select three activities from this list in your row for the next class
-
-
-
-
+# Results of the Processing Class 2018/2019 at the University of Applied Sciences
 ## Sketch 1 — Hommage to Vera Molnár’s »Untitled«
 ![Animation of Supershape Sketch](/img/molnar.gif)
 
@@ -52,15 +33,15 @@ Please select three activities from this list in your row for the next class
 	  endRecord();
 	}
 
-🔗 Download the sketch file here: ![Molnar Sketch file](sketch_files/molnar_sketch.zip)
+🔗 Download the sketch file here: [Molnar Sketch file](sketch_files/molnar_sketch.zip)
 
 
-
+- - -
 
 
 ## Sketch 2 — Supershapes build with sin and cos functions
 ![Animation of Supershape Sketch](/img/supershape.gif)
-🌀 Text here
+🌀 Exploring the sin and cos functions within processing, so called supershapes were created and were later lasered on paper.
 
 		import processing.pdf.*;
 		boolean record;
@@ -94,10 +75,15 @@ Please select three activities from this list in your row for the next class
 			return cos(t/4) * 100 + cos(t/2)*25;
 		}
 
+🔗 Download the sketch file here: [Supershape Sketch file](sketch_files/supershape_sketch.zip)
+
+
+- - -
+
 
 ## Sketch 3 — Wildlife (Object Oriented Programming)
 ![Animation of Supershape Sketch](/img/wildlife.gif)
-🌀 Text here
+🌀 Getting to know the concept of object oriented programming, I created a "worm" object that produces worms in different width, heigth and leg length and moves them across the screen.
 
 		Worm[] worms = new Worm[10]; // declare array + create list of 10 spots
 
@@ -164,3 +150,4 @@ Please select three activities from this list in your row for the next class
 				}
 			}
 		}
+🔗 Download the sketch file here: [Wildlife Sketch file](sketch_files/wildlife_sketch.zip)
